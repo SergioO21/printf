@@ -10,7 +10,7 @@
 
 int print_string(va_list args)
 {
-	unsigned int i;
+	int i;
 	char *s;
 
 	s = va_arg(args, char*);
