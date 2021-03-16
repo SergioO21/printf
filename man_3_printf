@@ -1,0 +1,67 @@
+.TH _PRINTF 3 "MARCH 17" "HOLBERTON SCHOOL CH14"
+
+
+.SH NAME
+_printf \- Print any type of data.
+
+
+.SH SYNOPSYS
+
+.B #include \*(lqholberton.h\*(rq
+
+.B _printf (const char *format, ...);
+
+
+.SH DESCRIPTION
+.B Print ARGUMENT(s) according to FORMAT.
+
+
+.B Interpreted sequences are:
+
+
+.B %c:
+Prints the character passed as parameter.
+
+.B %s:
+Prints text string finished with null character.
+
+.B %d:
+Converts argument to signed decimal notation and print it.
+
+.B %i:
+Converts argument to unsigned decimal notation and print it.
+
+.B %%
+Prints a single '%' character
+
+.B %b
+Convert the unsigned argument to a binary and print it.
+
+.B %u
+Prints the integer unsigned decimal conversion.
+
+.B %o
+Prints the integer unsigned octal conversion.
+
+.B %x
+Unsigned hexadecimal conversion in lowercase form.
+
+.B %X
+Unsigned hexadecimal conversion uppercase  form.	
+
+.B %p
+Prints a memory address (Pointer).
+
+
+.SH EXAMPLE:
+
+        _printf("i am a character %s", 'J');
+
+        _printf("i am a integrer %d", 1);
+
+        _printf("i am a integrer %i", 2);
+
+
+.SH AUTHOR(S)
+        Juan José Arteta Maury.
+        Sergio Orejarena Rueda.
