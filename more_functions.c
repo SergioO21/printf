@@ -38,6 +38,9 @@ int print(const char *format, va_list args, type specifiers[])
 				{
 					if (!format[i + 1])
 						return (-1);
+
+					else
+						count +=  _putchar(format[i]);
 				}
 				j++;
 			}
