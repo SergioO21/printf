@@ -15,13 +15,13 @@ int print_binary(va_list args)
 	int valor[100];
 
 	s = va_arg(args, unsigned int);
-	
+
 	if (s <= 0)
 	{
 		_putchar('0');
 		return (1);
 	}
-	
+
 	while (s > 0)
 	{
 		valor[i] = s % 2;
