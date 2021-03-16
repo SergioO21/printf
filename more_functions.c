@@ -15,9 +15,8 @@
 
 int print(const char *format, va_list args, type specifiers[])
 {
-	int i, j, count;
+	int i = 0, j = 0, count = 0;
 
-	i = j = count = 0;
 	while (format != NULL && format[i] != '\0')
 	{
 		if (format[i] == '%')
@@ -26,7 +25,7 @@ int print(const char *format, va_list args, type specifiers[])
 			{
 				_putchar('%');
 				count++;
-				return(count);
+				return (count);
 			}
 			while (j < 10)
 			{
