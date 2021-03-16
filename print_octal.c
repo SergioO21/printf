@@ -13,13 +13,12 @@ int print_octal(va_list args)
 long int i2, i;
 	char *s;
 
-	i = va_arg(ap, unsigned int);
+	i = va_arg(args, unsigned int);
 	s = _itoa(i, 8);
 
 	for (i2 = 0; s[i2] != '\0'; i2++)
 	{
-		_putchar(s[i]);
+		_putchar(s[i2]);
 	}
 	return (i2);
-
 }

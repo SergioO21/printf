@@ -11,17 +11,15 @@
 int print_uint(va_list args)
 {
 	long int i, i2;
-	int *s;
+	char *s;
 
 	i = va_arg(args, unsigned int);
 
 	s = _itoa(i, 10);
 
-	i2 = 0;
-	while (i2 != '\0')
+	for (i2 = 0; s[i2] != '\0'; i2++)
 	{
 		_putchar(s[i2]);
-		i2++;
 	}
 	return (i2);
 }

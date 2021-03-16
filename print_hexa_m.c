@@ -11,19 +11,19 @@
 int print_hexa_m(va_list args)
 {
 
-long int n, i;
+long int i2, i;
 	char *s;
 
-	n = va_arg(ap, unsigned int);
-	s = _itoa(n, 16);
+	i = va_arg(args, unsigned int);
+	s = _itoa(i, 16);
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i2 = 0; s[i2] != '\0'; i2++)
 	{
-		if (s[i] >= 97 && s[i] <= 122)
+		if (s[i2] >= 97 && s[i2] <= 122)
 		{
-			s[i] = s[i] - 32;
+			s[i2] = s[i2] - 32;
 		}
-		_putchar(s[i]);
+		_putchar(s[i2]);
 	}
-	return (i);
+	return (i2);
 }
