@@ -10,34 +10,17 @@
 
 int print_hexa(va_list args)
 {
-	unsigned int i, i2, count;
-	int p;
-	char c;
-	unsigned int a[100];
-	char values[] = "0123456789abcdef";
 
-	i = va_arg(args, int);
-	p = 0;
+long int i2, i;
+	char *s;
 
-	while (i > 0)
+	i = va_arg(args, unsigned int);
+	s = _itoa(i, 16);
+
+	for (i2 = 0; s[i2] != '\0'; i2++)
 	{
-		i2 = i % 16;
-		i = i / 16;
-
-		a[p] = i2;
-		p++;
+		_putchar(s[i2]);
 	}
+	return (i2);
 
-	count = p;
-	p--;
-
-	while (p >= 0)
-	{
-		c = values[a[p]];
-
-		_putchar(c);
-
-		p--;
-	}
-	return (count);
 }
