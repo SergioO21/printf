@@ -9,7 +9,7 @@
  */
 int print_int(va_list args)
 {
-	int i2, i;
+	long int i2, i;
 	char *s;
 
 	i = va_arg(args, int);
