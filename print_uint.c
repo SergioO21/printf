@@ -10,41 +10,17 @@
 
 int print_uint(va_list args)
 {
-	unsigned int i, count;
-	int p, i2;
-	char n[100];
-	char c;
+	long int i, i2;
+	char *s;
 
-	i2 = va_arg(args, int);
-	p = 0;
+	i = va_arg(args, unsigned int);
 
-	if (i2 < 0)
+	s = _itoa(i, 10);
+
+	i2 = 0;
+	while (i2 != '\0')
 	{
-		i = UINT_MAX + i2 + 1;
+		_putchar(s[i2]);
+		i2++;
 	}
-
-	else
-		i = i2;
-
-	while (i > 0)
-	{
-		i2 = i % 10;
-		i = i / 10;
-
-		n[p] = i2;
-		p++;
-	}
-
-	p--;
-	count = p + 1;
-
-	while (p >= 0)
-	{
-		c = n[p] + '0';
-
-		_putchar(c);
-
-		p--;
-	}
-	return (count);
-}
+	return (i2);
