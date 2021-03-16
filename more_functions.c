@@ -22,11 +22,10 @@ int print(const char *format, va_list args, type specifiers[])
 		if (format[i] == '%')
 		{
 			if (format[i + 1] == '\0')
-			{
-				_putchar('%');
-				count++;
-				return (count);
-			}
+				return (-1);
+			if (format[i + 1] == ' ')
+				i++;
+
 			while (j < 10)
 			{
 				if (format[i + 1] == specifiers[j].op[0])
