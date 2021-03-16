@@ -8,10 +8,8 @@
  * Return: The number of characters printed.
  */
 
-int print_percent(va_list args)
+int print_percent(void)
 {
-	(void) args;
-
 	_putchar('%');
 
 	return (1);
