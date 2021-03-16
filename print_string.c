@@ -18,11 +18,13 @@ int print_string(va_list args)
 	if (s == NULL)
 	{
 		_printf("(null)");
-		return (1);
+		return (6);
 	}
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		_putchar(s[i]);
 	}
+
 	return (i);
 }
