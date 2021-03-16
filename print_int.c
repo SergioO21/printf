@@ -14,7 +14,7 @@ int print_int(va_list args)
 	long int i2, i;
 	char *s;
 
-	i = va_arg(ap, int);
+	i = va_arg(args, int);
 
 	s = _itoa(i, 10);
 
