@@ -25,7 +25,8 @@ int print(const char *format, va_list args, type specifiers[])
 			if (format[i + 1] == '\0')
 			{
 				_putchar('%');
-				return (1);
+				count++;
+				return(count);
 			}
 			while (j < 10)
 			{
