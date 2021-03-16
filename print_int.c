@@ -36,8 +36,8 @@ int print_int(va_list args)
 		p++;
 	}
 
+	count += p;
 	p--;
-	count += p + 1;
 
 	while (p >= 0)
 	{
