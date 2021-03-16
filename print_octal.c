@@ -10,32 +10,16 @@
 
 int print_octal(va_list args)
 {
-	unsigned int s, count;
-	int i = 0;
-	unsigned int valor[100];
+long int i2, i;
+	char *s;
 
-	s = va_arg(args, int);
+	i = va_arg(ap, unsigned int);
+	s = _itoa(i, 8);
 
-	if (s == 0)
-		_putchar(i + '0');
-
-	while (s > 0)
+	for (i2 = 0; s[i2] != '\0'; i2++)
 	{
-		valor[i] = s % 8;
-			s = s / 8;
-		i++;
+		_putchar(s[i]);
 	}
+	return (i2);
 
-	count = i;
-	i = i - 1;
-
-	while (i >= 0)
-	{
-		char c = valor[i] + '0';
-
-		_putchar(c);
-
-		i--;
-	}
-	return (count);
 }
