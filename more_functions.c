@@ -26,7 +26,7 @@ int print(const char *format, va_list args, type specifiers[])
 			if (format[i + 1] == ' ')
 				i++;
 
-			while (j < 10)
+			while (j < 13)
 			{
 				if (format[i + 1] == specifiers[j].op[0])
 				{
