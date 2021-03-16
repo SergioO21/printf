@@ -11,7 +11,7 @@
 int print_uint(va_list args)
 {
 	long int i, i2;
-	char *s;
+	int *s;
 
 	i = va_arg(args, unsigned int);
 
@@ -24,3 +24,4 @@ int print_uint(va_list args)
 		i2++;
 	}
 	return (i2);
+}
