@@ -1,9 +1,16 @@
 #include "holberton.h"
+
 /**
-*
-*
-*
-*/
+ * print - Print according to a format.
+ *
+ * @format: Arguments.
+ *
+ * @args: list of arguments.
+ *
+ * @specifiers: struct type.
+ *
+ * Return: The number of characters printed.
+ */
 
 
 int print(const char *format, va_list args, type specifiers[])
