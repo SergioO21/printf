@@ -39,4 +39,6 @@ typedef struct type
 	int (*f)();
 } type;
 
+int print(const char *format, va_list args, type specifiers[]);
+
 #endif /* Holberton Library */

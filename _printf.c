@@ -11,10 +11,7 @@
 int _printf(const char *format, ...)
 {
 	va_list args;
-	unsigned int i, j;
-	int count = 0;
-	char c;
-
+	int i;
 	type specifiers[] = {
 		{"c", print_char}, {"s", print_string},
 		{"d", print_int}, {"%", print_percent},
@@ -25,39 +22,15 @@ int _printf(const char *format, ...)
 		{NULL, NULL}
 	};
 
-	va_start(args, format);
+	i = 0;
 
 	if (!format)
 		return (-1);
 
-	if (format == NULL)
-		return (-1);
+	va_start(args, format);
 
-	for (i = 0; format[i] != '\0'; i++)
-	{
-		if (format[i] == '%' && format[i + 1] == '\0')
-				return (-1);
+	i = print(format, args, specifiers);
 
-		if (format[i] == '%' && format[i + 1] == ' ')
-				i++;
-
-		if (format[i] == '%' && format[i + 1] != '\0')
-		{
-			i++;
-			for (j = 0; specifiers[j].op != NULL; j++)
-			{
-				if (format[i] == specifiers[j].op[0])
-					count += specifiers[j].f(args);
-			}
-		}
-
-		else
-		{
-			c = format[i];
-			write(STDOUT, &c, 1);
-			count++;
-		}
-	}
 	va_end(args);
-	return (count);
+	return (i);
 }
