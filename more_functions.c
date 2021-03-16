@@ -26,7 +26,7 @@ int print(const char *format, va_list args, type specifiers[])
 			if (format[i + 1] == ' ')
 				i++;
 
-			while (j <= 13)
+			while (j < 13)
 			{
 				if (format[i + 1] == specifiers[j].op[0])
 				{
@@ -34,13 +34,13 @@ int print(const char *format, va_list args, type specifiers[])
 					i++;
 					break;
 				}
-				if (j == 13 && format[i + 1] != specifiers[j].op[1])
+				if (j == 12 && format[i + 1] != specifiers[j].op[1])
 				{
 					if (!format[i + 1])
 						return (-1);
 
 					else
-						count +=  _putchar(format[i]);
+						count += _putchar(format[i]);
 				}
 				j++;
 			}
