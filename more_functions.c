@@ -23,10 +23,11 @@ int print(const char *format, va_list args, type specifiers[])
 		{
 			if (format[i + 1] == '\0')
 				return (-1);
+			
 			if (format[i + 1] == ' ')
 				i++;
 
-			while (j < 13)
+			while (j < 10)
 			{
 				if (format[i + 1] == specifiers[j].op[0])
 				{
@@ -34,7 +35,7 @@ int print(const char *format, va_list args, type specifiers[])
 					i++;
 					break;
 				}
-				if (j == 12 && format[i + 1] != specifiers[j].op[1])
+				if (j == 9 && format[i + 1] != specifiers[j].op[1])
 				{
 					if (!format[i + 1])
 						return (-1);
