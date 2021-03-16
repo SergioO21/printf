@@ -14,7 +14,7 @@
 int _printf(const char *format, ...);
 int print_char(va_list args);
 int print_string(va_list args);
-int print_percent(va_list args);
+int print_percent(void);
 int print_int(va_list args);
 int print_binary(va_list args);
 int print_octal(va_list args);
@@ -24,7 +24,7 @@ int print_uint(va_list args);
 int print_rev(va_list args);
 int print_rot13(va_list args);
 int _strlen(char *s);
-int _putchar(char c); 
+int _putchar(char c);
 
 /**
  * struct type - Function call structure.

@@ -3,19 +3,12 @@
 /**
  * print_percent - Print a percent sign.
  *
- * @args: List of arguments.
- *
  * Return: The number of characters printed.
  */
 
-int print_percent(va_list args)
+int print_percent(void)
 {
-	char c;
-	(void) args;
-
-	c = '%';
-
-	_putchar(c);
+	_putchar('%');
 
 	return (1);
 }
