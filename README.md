@@ -48,9 +48,16 @@ the formats are as follows.
 ## Examples: ##
 ```
        1:) _printf("Number:[%d]\n", 762534);
-       2:) _printf("Unsigned:[%u]\n", ui);
+       $ Number:[762534]
+       
+       2:) _printf("Unsigned:[%u]\n", 2004);
+       $ Unsigned:[2004]
+       
        3:) _printf("Character:[%c]\n", 'H');
+       $ Character:[H]
+       
        4:) _printf("String:[%s]\n", "I am a string !");
+       $ String:[I am a string !]
 ```
 ## Manual. ##
 To enter the manual use the following code:
@@ -59,8 +66,8 @@ man -l man_3_printf
 ```
 ## Authors: ##
 
-* **Juan José Arteta Maury** - [*GitHub*](https://github.com/jj131204)
-* **Sergio Orejarena Rueda** - [*GitHub*](https://github.com/SergioO21)
+* **Juan José Arteta Maury** - [*GitHub*](https://github.com/jj131204)   -[*Twitter*](https://twitter.com/jarteta2004)
+* **Sergio Orejarena Rueda** - [*GitHub*](https://github.com/SergioO21)  -[*Twitter*](https://twitter.com/SergioOR21)
 
 ## Flowchart: ##
 <details>
