@@ -23,7 +23,7 @@ int print(const char *format, va_list args, type specifiers[])
 		{
 			if (format[i + 1] == '\0')
 				return (-1);
-			
+
 			if (format[i + 1] == ' ')
 				i++;
 
