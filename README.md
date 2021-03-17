@@ -62,4 +62,8 @@ man -l man_3_printf
 * **Juan José Arteta Maury** - [*GitHub*](https://github.com/jj131204)
 * **Sergio Orejarena Rueda** - [*GitHub*](https://github.com/SergioO21)
 
+## Flowchart:
+<details>
+       <img src= "https://github.com/SergioO21/printf/blob/main/Flowchart.png" />
+</details>
 #### Finished in 16 / 03 / 2021.
