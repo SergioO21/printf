@@ -1,11 +1,18 @@
-PrintF Project
+
+# Printf proyect
+
+This is the first group project at holberton school.
+
+### Integrantes:
+
+Juan José Arteta Maury.
+
+Sergio Orejarena.
 
 ## Description
 
 print arguments according to a format type.
 the formats are as follows.
-
-
 
 ```
        %c: Prints the character passed as parameter.
@@ -26,7 +33,5 @@ the formats are as follows.
 
        %x Unsigned hexadecimal conversion in lowercase form.
 
-       %X Unsigned hexadecimal conversion uppercase  form.
-Creating our own printf function
-
-BY: Juan Jose Arteta and Sergio orejarena
+       %X Unsigned hexadecimal conversion uppercase  form
+```
