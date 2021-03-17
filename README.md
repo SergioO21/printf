@@ -3,12 +3,12 @@
 # Printf Proyect
 This is the first group project at holberton school.
 
-## Objective: 
+## Objective. ##
 This project creates our own version, _printf, of the C library function printf. 
 
 
 
-## Description
+## Description. ##
 
 Print arguments according to a format type.
 the formats are as follows.
@@ -39,31 +39,32 @@ the formats are as follows.
        %r prints the reversed string.
        
 ```
-## Compilations:
+## Compilations: ##
   You can compile the project "printf" by do the following command:
 
        gcc -Wall -Werror -Wextra -pedantic * . c (all together) 
        
        
-## Examples:
+## Examples: ##
 ```
        1:) _printf("Number:[%d]\n", 762534);
        2:) _printf("Unsigned:[%u]\n", ui);
        3:) _printf("Character:[%c]\n", 'H');
        4:) _printf("String:[%s]\n", "I am a string !");
 ```
-## Manual
+## Manual. ##
 To enter the manual use the following code:
 ```
 man -l man_3_printf
 ```
-## Authors:
+## Authors: ##
 
 * **Juan José Arteta Maury** - [*GitHub*](https://github.com/jj131204)
 * **Sergio Orejarena Rueda** - [*GitHub*](https://github.com/SergioO21)
 
-## Flowchart:
+## Flowchart: ##
 <details>
        <img src= "https://github.com/SergioO21/printf/blob/main/Flowchart.png" />
 </details>
-#### Finished in 16 / 03 / 2021.
+
+#### Finished in 16 / 03 / 2021. ####
