@@ -49,9 +49,11 @@ Unsigned hexadecimal conversion in lowercase form.
 .B %X
 Unsigned hexadecimal conversion uppercase  form.	
 
-.B %p
-Prints a memory address (Pointer).
+.B %r
+prints the reversed string.
 
+.B %R
+print a string in Rot 13.
 
 .SH EXAMPLE:
 
