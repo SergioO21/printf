@@ -10,7 +10,7 @@ This project creates our own version, _printf, of the C library function printf.
 
 ## Description
 
-print arguments according to a format type.
+Print arguments according to a format type.
 the formats are as follows.
 
 ```
@@ -53,13 +53,13 @@ the formats are as follows.
        4:) _printf("String:[%s]\n", "I am a string !");
 ```
 ## Manual
-to enter the manual use the following code
-
+To enter the manual use the following code:
+```
 man -l man_3_printf
-
+```
 ## Authors:
 
-* **Juan José Arteta Maury** - *GitHub* - [jj131204](https://github.com/jj131204)
-* **Sergio orejarena** - *Github* - [sergio021l](https://github.com/SergioO21)
+* **Juan José Arteta Maury** - [*GitHub*](https://github.com/jj131204)
+* **Sergio Orejarena Rueda** - [*GitHub*](https://github.com/SergioO21)
 
 #### Finished in 16 / 03 / 2021.
