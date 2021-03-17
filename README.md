@@ -1,12 +1,12 @@
+[![](https://www.holbertonschool.com/holberton-logo.png)](https://www.holbertonschool.com/)
 
-# Printf proyect
-
+# printf
 This is the first group project at holberton school.
 
-## Autores
+## Objective: 
+This project creates our own version, _printf, of the C library function printf. 
 
-* **Juan José Arteta Maury** - *_printf* - [jj131204](https://github.com/jj131204)
-* **Sergio orejarena** - *_printf* - [sergio021l](https://github.com/SergioO21)
+
 
 ## Description
 
@@ -39,6 +39,12 @@ the formats are as follows.
        %r prints the reversed string.
        
 ```
+## Compilations:
+  You can compile the project "printf" by do the following command:
+
+       gcc -Wall -Werror -Wextra -pedantic * . c (all together) 
+       
+       
 ## Examples:
 ```
        1:) _printf("Number:[%d]\n", 762534);
@@ -46,4 +52,14 @@ the formats are as follows.
        3:) _printf("Character:[%c]\n", 'H');
        4:) _printf("String:[%s]\n", "I am a string !");
 ```
+## Manual
+to enter the manual use the following code
+
+man -l man_3_printf
+
+## Authors:
+
+* **Juan José Arteta Maury** - *GitHub* - [jj131204](https://github.com/jj131204)
+* **Sergio orejarena** - *Github* - [sergio021l](https://github.com/SergioO21)
+
 #### Finished in 16 / 03 / 2021.
