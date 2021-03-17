@@ -3,11 +3,10 @@
 
 This is the first group project at holberton school.
 
-### Integrantes:
+## Autores
 
-Juan José Arteta Maury.
-
-Sergio Orejarena.
+* **Juan José Arteta Maury** - *_printf* - [jj131204](https://github.com/jj131204)
+* **Sergio orejarena** - *_printf* - [sergio021l](https://github.com/sergio021)
 
 ## Description
 
