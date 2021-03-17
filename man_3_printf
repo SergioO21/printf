@@ -1,4 +1,4 @@
-.TH _PRINTF 3 "MARCH 17" "HOLBERTON SCHOOL CH14"
+.TH _PRINTF 3 "MARCH 17 / 2020" "HOLBERTON SCHOOL CH14"
 
 
 .SH NAME
@@ -57,11 +57,17 @@ print a string in Rot 13.
 
 .SH EXAMPLE:
 
-        _printf("i am a character %s", 'J');
+        _printf("i am a character [%c]", 'J');
+        $ i am a character [J]
 
-        _printf("i am a integrer %d", 1);
+        _printf("i am a integrer [%d]", 1);
+        $ i am a integer [1]
 
-        _printf("i am a integrer %i", 2);
+        _printf("i am other integrer [%i]", 2);
+        $ i am other integer [2]
+
+        _printf("String: [%s]", "I am a string !");
+        $ String: [I am a string !]
 
 
 .SH AUTHOR(S)
