@@ -6,7 +6,7 @@ This is the first group project at holberton school.
 ## Autores
 
 * **Juan José Arteta Maury** - *_printf* - [jj131204](https://github.com/jj131204)
-* **Sergio orejarena** - *_printf* - [sergio021l](https://github.com/sergio021)
+* **Sergio orejarena** - *_printf* - [sergio021l](https://github.com/SergioO21)
 
 ## Description
 
@@ -32,5 +32,18 @@ the formats are as follows.
 
        %x Unsigned hexadecimal conversion in lowercase form.
 
-       %X Unsigned hexadecimal conversion uppercase  form
+       %X Unsigned hexadecimal conversion uppercase  form.
+       
+       %R print a string in ROT13.
+       
+       %r prints the reversed string.
+       
 ```
+## Examples:
+```
+       1:) _printf("Number:[%d]\n", 762534);
+       2:) _printf("Unsigned:[%u]\n", ui);
+       3:) _printf("Character:[%c]\n", 'H');
+       4:) _printf("String:[%s]\n", "I am a string !");
+```
+#### Finished in 16 / 03 / 2021.
