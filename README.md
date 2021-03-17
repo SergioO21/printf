@@ -64,6 +64,7 @@ man -l man_3_printf
 
 ## Flowchart: ##
 <details>
+       <summary>Click to view the flowchart</summary>
        <img src= "https://github.com/SergioO21/printf/blob/main/Flowchart.png" />
 </details>
 
