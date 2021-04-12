@@ -1,6 +1,6 @@
 [![](https://www.holbertonschool.com/holberton-logo.png)](https://www.holbertonschool.com/)
 
-# Printf Proyect
+# Printf Project
 This is the first group project at holberton school.
 
 ## Objective. ##
